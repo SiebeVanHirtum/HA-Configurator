@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "device_ip"     => $_POST['ip'],
             "device_id"     => $_POST['id'],
             "friendly_name" => $_POST['name'],
-            "mqtt_server"   => "10.3.141.1:1883",
+            "mqtt_server"   => "mosquitto:1883",
             "mqtt_user"     => "siebe",
             "mqtt_pass"     => "2250"
         ];
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
 
         // 3. Verstuur naar Node-RED
-        $url = "http://10.3.141.1:1880/add-device";
+        $url = "http://nodered:1880/add-device";
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data_to_send));
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
