@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "device_ip"     => $_POST['ip'],
             "device_id"     => $_POST['id'],
             "friendly_name" => $_POST['name'],
-            "mqtt_server"   => "mosquitto:1883",
+            "mqtt_server"   => "piaasem.local:1883",
             "mqtt_user"     => "siebe",
             "mqtt_pass"     => "2250"
         ];
