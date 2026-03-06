@@ -1,0 +1,8 @@
+{
+    "type": "zigbee",
+    "device_info": {
+        "model": "WSDCGQ11LM",
+        "manufacturer": "Aqara"
+    },
+    "entities": [ "..." ]
+}
