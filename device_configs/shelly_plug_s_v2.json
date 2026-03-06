@@ -1,4 +1,5 @@
 {
+  "type": "wifi",
   "device_info": {
     "model": "Plug S v2",
     "manufacturer": "Shelly"
