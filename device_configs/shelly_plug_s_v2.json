@@ -2,7 +2,9 @@
   "type": "wifi",
   "device_info": {
     "model": "Plug S v2",
-    "manufacturer": "Shelly"
+    "manufacturer": "Shelly",
+    "category": "Plugs",
+    "image_url": "https://kb.shelly.cloud/__attachments/229146742/Plus-Plug-S-V2.jpg?inst-v=e38b5fcf-bfa3-4c48-acb1-d325537357e8"
   },
   "setup": {
     "endpoint": "/rpc/MQTT.SetConfig",
@@ -80,5 +82,4 @@
     }
   ]
 }
-
 
