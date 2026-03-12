@@ -1,0 +1,25 @@
+{
+    "categoryIcons": {
+        "Plugs":    "fa-plug",
+        "Lights":   "fa-lightbulb",
+        "Sensors":  "fa-thermometer-half",
+        "Switches": "fa-toggle-on",
+        "Other":    "fa-microchip"
+    },
+    "deviceTypes": {
+        "wifi": {
+            "icon":        "fa-wifi",
+            "color":       "blue",
+            "label":       "WiFi",
+            "showIpField": true,
+            "idHint":      "e.g. shellyplug-s-01"
+        },
+        "zigbee": {
+            "icon":        "fa-project-diagram",
+            "color":       "green",
+            "label":       "Zigbee",
+            "showIpField": false,
+            "idHint":      "Must match the Zigbee2MQTT friendly name"
+        }
+    }
+}
